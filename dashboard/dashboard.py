@@ -62,7 +62,7 @@ min_date = pd.to_datetime(bike_df["tanggal"]).dt.date.min()
 max_date = pd.to_datetime(bike_df["tanggal"]).dt.date.max()
 
 with st.sidebar:
-    st.image("logo.jpg", caption="Share-Bike", use_column_width=True)
+    st.image("dashboard/logo.jpg", caption="Share-Bike", use_column_width=True)
 
     start_date, end_date = st.date_input(
         label="Rentang Waktu",
