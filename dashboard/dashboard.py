@@ -6,8 +6,8 @@ import seaborn as sns
 
 plt.style.use("dark_background")
 
-bike_df = pd.read_csv("./bike.csv")
-hour_df = pd.read_csv("./hour.csv")
+bike_df = pd.read_csv("dashboard/bike.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
 
 bike_df.rename(
     columns={
