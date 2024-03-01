@@ -1,3 +1,28 @@
+## Bike Sharing Analysis
+
+> Rangga Aldo Sastrowardoyo
+
+#### Cara Menjalankan Dashboard
+
+1. Clone Repository
+
+```git
+git clone https://github.com/ranggaaldosas/bike-sharing-analysis.git
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Jalankan dashboard
+
+```bash
+cd dashboard
+streamlit run dashboard.py
+```
+
 #### Column Description
 
 - instant: Indeks catatan.
